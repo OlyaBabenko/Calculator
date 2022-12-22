@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+html {
+    background: url("img/bckg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.wrapper main {
+    font-family: "Comic Sans MS", sans-serif;
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 300px;
+}
+.wrapper main .input {
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 30px 30px 0 0;
+    background-color: #588bbd;
+    padding: 10px 5px;
+    text-align: right;
+    height: 100px;
+    box-sizing: content-box;
+}
+.wrapper main .button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 345px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #071b32;
+    border-radius: 0 0 30px 30px;
+    font-size: 20px;
+}
+.wrapper main .button .btn {
+    width: 22%;
+    margin: 8px 4px 3px 4px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wrapper main .button .operator {
+    border-radius: 50%;
+    background-color: #21384d;
+}
+.wrapper main .button .equals {
+    color: #d0c720;
+    font-size: x-large;
+
+}
+.wrapper main .button .btn:hover {
+    border-radius: 50%;
+    background-color: #588bbd;
+}
